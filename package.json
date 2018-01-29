@@ -1,0 +1,31 @@
+{
+    "name": "gpp-language",
+    "displayName": "gpp-language",
+    "description": "Syntax highlighter for SolidCam .gpp language",
+    "version": "0.0.1",
+    "publisher": "Ml",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "icon": "Images/icon_GPP.png",
+    "galleryBanner": {
+        "color": "#C80000",
+        "theme": "dark"
+    },
+    "contributes": {
+        "languages": [{
+            "id": "gpp",
+            "aliases": ["GPP", "gpp", "SolidCam", "syntax", "highlighter", "language"],
+            "extensions": [".gpp"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "gpp",
+            "scopeName": "source.gpp",
+            "path": "./syntaxes/gpp.tmLanguage.json"
+        }]
+    }
+}
