@@ -1,4 +1,4 @@
-# gpp-language README
+# gpp-vscode README
 
 This package provides syntax highlighting in VSCode text editor for the GPP programming language, for SolidCam.
 
