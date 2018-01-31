@@ -6,7 +6,7 @@ This package provides syntax highlighting in VSCode text editor for the GPP prog
 
 Screenshots of extension in action. 
 
-\!\[feature X\]\(images/feature-x.png\)
+<img width="724" alt="screenshot_gpp" src="https://user-images.githubusercontent.com/11251737/35605449-9f93b570-05fd-11e8-83b7-4775d95a2e64.png">
 
 
 ## Requirements
